@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculadora</title>
+        <!-- Meta description, author, keywords -->
+        <!-- Links CSS -->
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+
+    <body>
+        <main>
+            <div class="calculator">
+                <div class="calculator-text">
+                    <div class="calculator-text__row1">
+                        <input type="text" class="operador" name="operacion" id="operacion" disabled/>
+                        <input type="text" class="numeros" name="calcule" id="calcule" disabled/>
+                    </div>
+                    <input type="text" class="resultado" id="resultado" disabled>
+                </div>
+                <div class="calculator-buttons">
+                    <div class="row-1">
+                        <input type="button" value="1">
+                        <input type="button" value="2">
+                        <input type="button" value="3">
+                        <button id="sumar">+</button>
+                    </div>
+                    <div class="row-2">
+                        <input type="button" value="4">
+                        <input type="button" value="5">
+                        <input type="button" value="6">
+                        <button id="restar">-</button>
+                    </div>
+                    <div class="row-3">
+                        <input type="button" value="7">
+                        <input type="button" value="8">
+                        <input type="button" value="9">
+                        <button id="multiplicar">x</button>
+                    </div>
+                    <div class="row-4">
+                        <button id="limpiar">c</button>
+                        <input type="button" value="0">
+                        <input type="button" value=".">
+                        <button id="dividir">/</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script src="./scripts/script.js"></script>
+    </body>
+</html>
